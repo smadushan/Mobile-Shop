@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <title>Orders</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+
+        #ta{
+            color: blue;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<form method="get" action="#" enctype="multipart/form-data">
+
+    <div id="header">
+        <div style="position: fixed;left: 0px">
+            <h1 style="margin-top: 2px;height: 55px;background-color: black;width: 280px"></h1>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: blue;margin-left: 40px">M</div>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: red;margin-left: 80px">o</div>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: blue;margin-left: 110px">biles</div>
+        </div>
+
+        <div style="width: 100%;height: 55px;background-color: #19181a;margin-left: 7.4cm;position: fixed;margin-top: 2px"></div>
+
+        <!--<div style="margin-left: 9.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="MobileShopMain.html"> <img class="icon-png" src="images/Home_25px.png">Home</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 13.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="CustomerHandling.html"> <img class="icon-png" src="images/Edit%20User%20Male_25px.png">Manage Customer</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 19.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="ViewStock.html"> <img class="icon-png" src="images/Sell%20Stock_25px.png">View Stock</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 24.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="Orders.html"> <img class="icon-png" src="images/Purchase%20Order_25px.png">New Order</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 32.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="#"> <img class="icon-png" src="images/List_25px.png">Phones</a>-->
+        <!--</div>-->
+
+    </div>
+
+        <!--Back Button-->
+
+    <div style="margin-left: 34.5cm;margin-top: 2cm;position: fixed;font-size: 20px">
+        <a class="nav-link " href="MobileShopMain.html"> <img class="icon-png" src="images/Circled%20Left_35px.png"></a>
+    </div>
+
+
+<div>
+    <fieldset>
+        <form method="get" action="#" enctype="multipart/form-data"><br><br><br>
+
+            <div style="margin-top: 1cm"><h1 style="color: blue">Create new order</h1></div>
+
+                <!--View All Orders-->
+
+            <div id="btnViewOrder"><button type="enroll" class="btn btn-primary" style="width: 6cm;height: 1cm">View All Orders</button></div>
+
+
+                <!--Order Id/ Date-->
+
+
+            <div style="margin-top: -0.4cm;margin-left: 28.5cm;position: absolute;z-index: -1">
+                <label>Order Id</label>
+                <input type="text" class="form-control" style="width: 4cm;margin-left: 3cm;margin-top: -0.9cm">
+            </div>
+
+            <div style="margin-top: 0.7cm;margin-left: 28.5cm;position: absolute;z-index: -1">
+                <label>Order Date</label>
+                <input type="text" class="form-control" style="width: 4cm;margin-left: 3cm;margin-top: -0.9cm">
+            </div>
+
+
+                <!--Order details table-->
+
+
+        <table width="2000" border="0" class="table" style="margin-top: 2cm">
+            <tbody>
+            <tr>
+                <td>Customer Name</td>
+                <td><select class="form-control">
+                    <option>Nihal</option>
+                    <option>Kamal</option>
+                </select></td>
+
+                <td>Brand Name</td>
+                <td><select class="form-control">
+                    <option>Samsung</option>
+                    <option>Huawei</option>
+                </select></td>
+
+                <td>Model Name</td>
+                <td><select class="form-control">
+                    <option>Note 1</option>
+                    <option>S3</option>
+                </select></td>
+            </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+            <tr>
+                <td>Customer ID</td>
+                <td><input type="text" class="form-control"></td>
+
+                <td>Brand ID</td>
+                <td><input type="text" class="form-control"></td>
+
+                <td>Model ID</td>
+                <td><input type="text" class="form-control"></td>
+            </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+            <tr>
+                <td>IMI Number</td>
+                <td><select class="form-control">
+                    <option>654434789789</option>
+                    <option>098765431234</option>
+                </select></td>
+
+                <td>Stock ID</td>
+                <td><input type="text" class="form-control"></td>
+
+                <td>Qty On Hand</td>
+                <td><input type="text" class="form-control"></td>
+            </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+            <tr>
+                <td>Warranty</td>
+                <td><input type="text" class="form-control"></td>
+
+                <td>Sale Price</td>
+                <td><input type="text" class="form-control"></td>
+            </tr>
+
+            </tbody>
+        </table>
+        </form>
+    </fieldset>
+</div>
+<br><br>
+
+<div class="container">
+    <fieldset>
+        <form>
+            <table border="8" class="table" style="margin-left: -2.5cm;width: 35.2cm">
+                <tbody>
+                <thead id="ta">
+                    <td>Order ID</td>
+                    <td>Order Date</td>
+                    <td>Customer ID</td>
+                    <td>Stock ID</td>
+                    <td>IMI Number</td>
+                    <td>Model ID</td>
+                    <td>Warranty</td>
+                    <td>Price</td>
+                </thead>
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+</div>
+<br><br>
+
+<div class="container">
+
+    <div style="margin-left: 21cm">
+        <button type="enroll" style="width: 5cm;height: 1cm" class="btn btn-danger">Remove</button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button type="enroll" style="width: 5cm;margin-left: 6cm;margin-top: -1.5cm;height: 1cm" class="btn btn-success" >Save&Print</button>
+    </div>
+
+
+            <!--Total Amount-->
+
+    <div style="margin-top: -1.2cm;margin-left: -1cm">
+        <label>Total Amount</label>
+        <input type="text" class="form-control" style="width: 7cm;margin-left: 3cm;margin-top: -0.9cm">
+    </div>
+
+</div>
+
+    <div id="footer" style="margin-top: 3cm;margin-left: 0px"></div>
+
+</form>
+</body>
+</html>

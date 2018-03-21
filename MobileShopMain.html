@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mobile Shop</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<form method="get" action="#" enctype="multipart/form-data">
+
+    <!--Header-->
+
+    <div id="header">
+        <div style="position: fixed;left: 0px">
+            <h1 style="margin-top: 2px;height: 55px;background-color: black;width: 280px"></h1>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: blue;margin-left: 40px">M</div>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: red;margin-left: 80px">o</div>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: blue;margin-left: 110px">biles</div>
+        </div>
+
+        <div style="width: 100%;height: 55px;background-color: #19181a;margin-left: 7.4cm;position: fixed;margin-top: 2px"></div>
+
+        <div style="margin-left: 9.5cm;margin-top: 13px;position: fixed">
+            <a class="nav-link " href="MobileShopMain.html" style="color: white"> <img class="icon-png" src="images/Home_25px.png">Home</a>
+        </div>
+
+        <!--<div style="margin-left: 13.5cm;margin-top: 13px;position: fixed">-->
+            <!--<a class="nav-link " href="CustomerHandling.html"> <img class="icon-png" src="images/Edit%20User%20Male_25px.png">Manage Customer</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 19.5cm;margin-top: 13px;position: fixed">-->
+            <!--<a class="nav-link " href="ViewStock.html"> <img class="icon-png" src="images/Sell%20Stock_25px.png">View Stock</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 24.5cm;margin-top: 13px;position: fixed">-->
+            <!--<a class="nav-link " href="Orders.html"> <img class="icon-png" src="images/Purchase%20Order_25px.png">New Order</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 32.5cm;margin-top: 13px;position: fixed">-->
+            <!--<a class="nav-link " href="#"> <img class="icon-png" src="images/List_25px.png">Phones</a>-->
+        <!--</div>-->
+
+    </div>
+
+
+    <!--rotate icon-->
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="z-index: -1">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" style="height: 450px;width: 27.9cm;margin-left: 7.3cm;margin-top: 1.6cm">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/maxresdefault%20(1).jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/apple_logo_7-wallpaper.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/free_nokia_lumia_wallpapers_011.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/maxresdefault.jpg" alt="Forth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+    <div id="newOrder">
+        <a class="nav-link " href="Orders.html" style="color: darkblue"><div style="margin-top: 1.5cm;margin-left: 0.5cm"><h5 style="z-index: -1">New Orders</h5></div></a>
+        <a class="nav-link " href="Orders.html"><div id="orderIcon"></div></a>
+    </div>
+    <div id="enrollCustomer">
+        <a class="nav-link " href="CustomerHandling.html"><div style="margin-top: 1.5cm;margin-left: 0.5cm"><h5 style="z-index: -1">Customer Registration</h5></div></a>
+        <a class="nav-link " href="CustomerHandling.html"><div id="customerIcon"></div></a>
+    </div>
+    <div id="viewStock">
+        <a class="nav-link " href="ViewStock.html"><div style="margin-top: 1.5cm;margin-left: 0.5cm"><h5 style="z-index: -1">Phone Stocks</h5></div></a>
+        <a class="nav-link " href="ViewStock.html"><div id="viewIcon"></div></a>
+    </div>
+    <!--<div id="enrollBrand"></div>-->
+
+
+
+    <!--all mobile brands-->
+
+            <div id="nav"></div>
+
+    <!--<h3 style="width: 240px;height: 1cm;position: fixed;margin-left: 0.7cm;margin-top: -16cm;z-index: -1;font-style: unset">All mobile brands</h3>-->
+
+            <!--<div id="sony"></div>-->
+            <!--<div id="lg"></div>-->
+            <!--<div id="htc"></div>-->
+            <!--<div id="huawei"></div>-->
+            <!--<div id="microsoft"></div>-->
+            <!--<div id="samsung"></div>-->
+            <!--<div id="lenevo"></div>-->
+
+
+        <!--Price Range-->
+
+
+    <h3 style="width: 240px;height: 1cm;position: fixed;margin-left: 1cm;margin-top: -16cm;z-index: -1;font-style: unset">price range</h3>
+
+        <div id="container"></div>
+
+
+        <div class="checkbox" style="margin-top: -34.9cm;position: fixed;margin-left: 1.5cm;z-index: -1">
+            <label>
+                <input type="checkbox" value="option1">
+                Rs. 1000 and below
+            </label>
+        </div>
+
+        <div class="checkbox " style="margin-top: -34.3cm;position: fixed;margin-left: 1.5cm;z-index: -1">
+            <label>
+                <input type="checkbox" value="option1">
+                Rs. 1001 - Rs. 18000
+            </label>
+        </div>
+
+        <div class="checkbox " style="margin-top: -33.7cm;position: fixed;margin-left: 1.5cm;z-index: -1">
+            <label>
+                <input type="checkbox" value="option1">
+                Rs. 18001 - Rs. 25000
+            </label>
+        </div>
+
+        <div class="checkbox " style="margin-top: -33.1cm;position: fixed;margin-left: 1.5cm;z-index: -1">
+            <label>
+                <input type="checkbox" value="option1">
+                Rs. 25001 - Rs. 35000
+            </label>
+        </div>
+
+        <div class="checkbox " style="margin-top: -32.5cm;position: fixed;margin-left: 1.5cm;z-index: -1">
+            <label>
+                <input type="checkbox" value="option1">
+                Rs. 35001 above
+            </label>
+        </div>
+
+
+            <!--Button-->
+
+
+    <a class="nav-link" href="ViewOrders.html"><button type="button" class="btn btn-danger" style="width: 5.5cm;height: 1.5cm;margin-left: 0.25cm;margin-top: -31cm;position: fixed;z-index: -1">View All Orders</button></a>
+
+    <button type="button" class="btn btn-info" style="width: 5.5cm;margin-left: 0.5cm;margin-top: -28cm;height: 1.5cm;position: fixed;z-index: -1">Manage Phones</button>
+
+
+
+            <!--Rtate Icon-2-->
+
+
+    <div id="carouselExampleIndicator" class="carousel slide" data-ride="carousel" style="z-index: -1;position: fixed">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner" style="width: 6.4cm;margin-left: 0.1cm;position: fixed;margin-top: -24.4cm;height: 250px">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/maxresdefault-1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/maxresdefauuuult.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/imore-background%20(2).jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/iphone-10-1.jpg" alt="Forth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/iPhone-5-iOS-9.2-102.jpg" alt="Forth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/Screen-Shot-2015-09-09-at-8.29.20-PM1.png" alt="Forth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/maxresdefault.jpg" alt="Forth slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+
+    <!--Top Deals-->
+
+    <legend style="margin-top: -19cm;margin-left: 8cm;width: 27cm"><h2>Mobiles</h2></legend>
+
+
+    <h4 style="margin-left: 8cm">top</h4>
+    <h3 style="color: green;margin-left: 8.7cm;margin-top: -0.9cm">deals</h3>
+
+    <div id="tdealSamsung"></div>
+    <h6 style="margin-left: 9cm;width: 130px;position: absolute;margin-top: 6cm;z-index: -1">Samsung galaxy C7 pro 64GB/4GB Ram gold Rs.20,999</h6>
+
+    <div id="tdealLenovo"></div>
+    <h6 style="margin-left: 14cm;width: 220px;position: absolute;margin-top: 6cm;z-index: -1">Lenovo K6 power 32GB/3GB Ram Mix color Rs.7,999</h6>
+
+    <div id="tdealswipe"></div>
+    <h6 style="margin-left: 22cm;width: 220px;position: absolute;margin-top: 6cm;z-index: -1">Swipe Elite pius 16GB Mix color Rs.5,279</h6>
+
+    <div id="tdealA6000"></div>
+    <h6 style="margin-left: 30.3cm;width: 130px;position: absolute;margin-top: 6cm;z-index: -1">Lenovo A6000 1GB/8GB Mix color Rs.3,499</h6>
+
+
+        <!--Buget Mobiles-->
+
+    <legend style="margin-top: 9cm;margin-left: 8cm;width: 27cm;color: black"></legend>
+    <h2 style="margin-top: 0cm;margin-left: 8cm;width: 27cm;position: absolute;z-index: -1">Budget Mobiles</h2>
+    <legend style="margin-top: 2cm;margin-left: 8cm;width: 27cm;color: black"></legend>
+
+
+    <div id="bugetNokiaC5"></div>
+    <h6 style="margin-left: 9cm;width: 130px;position: absolute;margin-top: 6.3cm;z-index: -1">Nokia C503 Black SmartPhone Rs.1,299</h6>
+
+    <div id="bugetLG"></div>
+    <h6 style="margin-left: 15cm;width: 170px;position: absolute;margin-top: 6.3cm;z-index: -1">Nokia C503 Black SmartPhone Rs.1,299</h6>
+
+    <div id="bugetNokiaE5"></div>
+    <h6 style="margin-left: 23.5cm;width: 100px;position: absolute;margin-top: 6.3cm;z-index: -1">Nokia E5 Black SmartPhone Rs.11,499</h6>
+
+    <div id="bugetLG510"></div>
+    <h6 style="margin-left: 30.5cm;width: 100px;position: absolute;margin-top: 6.3cm;z-index: -1">LG GD510 pink Mobile phone Rs.6,599</h6>
+
+
+        <!--Best Selling Mobile-->
+
+    <legend style="margin-top: 9cm;margin-left: 8cm;width: 27cm;color: black"></legend>
+    <h2 style="margin-top: 0cm;margin-left: 8cm;width: 27cm;position: absolute;z-index: -1">Best Selling Mobiles</h2>
+    <legend style="margin-top: 2cm;margin-left: 8cm;width: 27cm;color: black"></legend>
+
+
+    <div id="bestblackberry"></div>
+    <h6 style="margin-left: 8.7cm;width: 130px;position: absolute;margin-top: 6cm;z-index: -1">Blackberry Tour 9630 Black SmartPhone Rs.4,499</h6>
+
+    <div id="bestSamsungSGH"></div>
+    <h6 style="margin-left: 15.5cm;width: 145px;position: absolute;margin-top: 6cm;z-index: -1">Samsung SGH Z170 Black Mobile Phone Rs.7,399</h6>
+
+
+    <legend style="width: 100%;margin-top: 8cm;position: absolute;z-index: -1;margin-left: 8cm;width: 27cm"></legend>
+
+
+        <!--Down Paragrahp-->
+
+
+    <div id="downParagrahp">
+
+        <div style="margin-left: 1.5cm"><h2>About Mobiles</h2></div>
+        <div style="background-color: lightslategrey;width: 16cm;height: 5px;margin-left: 1.5cm"></div>
+        <div style="margin-left: 1.5cm;color: lightseagreen"><h3>Find the Right Operating System</h3></div>
+        <div style="margin-left: 2cm"><h4>IOS :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            Apple fans will swear by the superior performance the iOS brings to you. The latest version is the iOS 7.
+            The iOS may not be an open source system but this allows the makers to build an intuitive interface.
+            Not to mention access to the widest range of third party apps exclusively built for iPhone and an environment that is immune to malware.
+            The downside of Apple OS is that it's only available on Apple's iPhones.
+
+        </h5></p></div>
+
+        <div style="margin-left: 2cm;margin-top: 1cm"><h4>Android :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            The Linux-based Android OS makes for the highest selling smartphone range.
+            Android-powered phones are quickly making up ground against Apple where apps are concerned,
+            and the Android operating system is available on a range of phones, making it easier to find one that fits your life exactly.
+            It allows customization too. Android OS is the most widely used OS across countless gadgets.
+            The Android versions are struck by the sweet tooth having been named Jelly Beans, Ice cream sandwich, Honeycomb, Gingerbread and Froyo.
+            Watch out for the latest Android OS 4.4 Kitkat.
+
+        </h5></p></div>
+
+        <div style="margin-left: 2cm;margin-top: 1cm"><h4>Windows :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            A great choice for business users, the windows OS brings Microsoft Exchange to sync your work
+            emails and easy access to Word, Excel, PowerPoint and Windows Media.
+            In short, it brings your PC experience to the mobile.
+            So if you plan on getting a lot of work done on your phone, a windows phone will prove to be perfect for you.
+            The OS versions being Windows 8 and Windows RT.
+
+        </h5></p></div>
+
+        <div style="margin-left: 2cm;margin-top: 1cm"><h4>RIM Blackberry :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            This one’s great for multitasking and the app store has caught up as well with 10,000 plus apps.
+            If you plan on using a lot of apps on your smartphone, you might want to avoid getting a Blackberry.
+            The Blackberry OS is great for using e-mail and Web browsing, but it doesn't have as many apps as other browsers.
+            The latest OS version is 7.1.
+
+        </h5></p></div>
+
+
+        <div style="background-color: lightslategrey;width: 16cm;height: 5px;margin-left: 1.5cm;margin-top: 1.5cm"></div>
+        <div style="margin-left: 1.5cm;color: lightseagreen"><h3>Get the Right Screen Size</h3></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            With the onset of the touch screen revolution, the size of a smartphone screen seems to keep challenging that of our pockets!
+            , So what screen size is just right for you? To make the most of the smartphone experience, set 4 inches as your lower limit.
+            Phones like the 4-inch iPhone 5 and 4.2-inch BlackBerry Z10 can be used comfortably with one hand without compromising on the world of apps.
+            The bigger phones out there or phablets as they have been termed bring a two hand experience along with the optimal use of a pen-like stylus.
+            The Samsung Galaxy Note II with its 5.5-inch screen is a popular phone in this category. Phablets are great for for Web surfing,
+            watching videos, gaming etc. So if you are not overwhelmed by larger phone screens, explore the 4.5 to 5-inch range with phones
+            like the Samsung Galaxy S4 and HTC One. Despite the big size, they are still portable while giving you the extra size to enhance
+            your browsing and keyboard experience. However, you may find yourself stretching your thumbs a tad bit more to access the entire screen.
+            So we suggest you hold that smartphone once and gauge your comfort before you buy it.
+
+
+        </h5></p></div>
+
+
+        <div style="background-color: lightslategrey;width: 16cm;height: 5px;margin-left: 1.5cm;margin-top: 1.5cm"></div>
+        <div style="margin-left: 1.5cm;color: lightseagreen"><h3>Battery Life</h3></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            To identify a phone with good battery life, check the mAh rating. A short lived battery life can kill the smartphone experience.
+            Power Saving features on phones help boost the battery life as well.
+
+        </h5></p></div>
+
+
+
+
+
+            <!--Second Line-->
+
+
+        <div style="background-color: lightslategrey;width: 16cm;height: 5px;margin-left: 1.5cm;margin-top: 1cm"></div>
+        <div style="margin-left: 1.5cm;color: lightseagreen"><h3>Get the right spaces</h3></div>
+        <div style="margin-left: 2cm;font-style: unset"><h4>Processor :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            The crux of the entire smartphone experience is the range of specs that make it possible.
+            The processor on your phone impacts the response speed.
+            Quad core processors are ruling the market these days to deliver a cutting edge experience in multitasking gaming and more.
+            Dual core processors are still around but in phones that are priced more economically.
+            Phones to watch out for are ones with the Qualcomm quad core processor and Nvidia’s Tegra 4 processor.
+
+        </h5></p></div>
+
+        <div style="margin-left: 2cm;font-style: unset;margin-top: 1cm"><h4>RAM :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            The standard memory quotient in high end smartphones today is 2GB of RAM along with 16 GB storage.
+            Most phones come with a microSD slot to enable storage expansion.
+            If you intend on storing a lot of HD videos and loading up on 3D games, opt for 32 GB of extra space.
+
+        </h5></p></div>
+
+        <div style="margin-left: 2cm;font-style: unset;margin-top: 1cm"><h4>Camera :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            The key to recognizing a good phone camera is to not judge it by its pixel range.
+            What boosts the quality of an image is the lens and the sensor size.
+            For instance the camera on the HTC One captures images with 4MP but delivers pictures that are 300% brighter.
+            Special features like having the extra front cam enables you to have video calls with friends
+            too! Or being able to simultaneously shoot from both the front and back cameras (Samsung Galaxy S4).
+            Most smartphones feature a front cam these days ranging from a VGA capable one to 2 MP.
+
+        </h5></p></div>
+
+
+        <div style="background-color: lightslategrey;width: 16cm;height: 5px;margin-left: 1.5cm;margin-top: 1.5cm"></div>
+        <div style="margin-left: 1.5cm;color: lightseagreen"><h3>Network Connection</h3></div>
+        <div style="margin-left: 2cm;font-style: unset"><h4>3G/4G :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            For more seamless email, messaging, browsing and downloads, look for 3G or 4G smartphones.
+            3G technologies are significantly faster than previous 2.5G data services.
+
+        </h5></p></div>
+
+        <div style="margin-left: 2cm;font-style: unset;margin-top: 1cm"><h4>Wi-Fi :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            Tap into wireless 802.11b or 802.11g networks with a Wi-Fi-enabled smartphone
+            so you can share files with computers on a network or access the Internet.
+
+        </h5></p></div>
+
+        <div style="margin-left: 2cm;font-style: unset;margin-top: 1cm"><h4>USB :</h4></div>
+        <div style="margin-left: 2cm;width: 600px"><p><h5>
+
+            Look for smartphones that use USB to transfer data to and from your computer.
+            Some smartphones can also charge over USB.
+
+        </h5></p></div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!--Footer-->
+
+        <div id="footer" style="width: 28.7cm;margin-left: 7.4cm;margin-top: 70cm"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+</form>
+</body>
+</html>

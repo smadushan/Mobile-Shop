@@ -1,0 +1,327 @@
+@media all and (min-width: 768px) and (max-width: 1020px) {
+
+    h1,h2{
+        text-align: center;
+        font-size: 20px;
+        color: lightblue;
+    }
+
+}
+
+@media all and (min-width: 540px) and (max-width: 767px) {
+
+    h1,h2{
+        text-align: center;
+        font-size: 10px;
+        color: lightblue;
+    }
+
+}
+
+body{
+    background-color: white;
+}
+
+#header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 59px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: #0d71bb;
+}
+
+#nav{
+    background-color: #3e3d41;
+    /*border: double;*/
+    /*opacity: 0.0;*/
+    position: fixed;
+    align-items: center;
+    width: 6.4cm;
+    height: 38cm;
+    margin-top: -18cm;
+    margin-left: 0.1cm;
+    z-index: -1;
+}
+#container{
+    /*background-image: url("images/Untitled 7 (4).png");*/
+    margin-top: 100px;
+    margin-left: 700px;
+    width: 410px;
+    height: 650px;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+    margin-top: 50cm;
+    font-size: 50px;
+    color: lightblue;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#sony{
+    background-image: url("../images/Sony.png");
+    position: fixed;
+    width: 152px;
+    height: 59px;
+    margin-top: -15.5cm;
+    margin-left: 1.4cm;
+    z-index: -1;
+}
+#lg{
+    background-image: url("../images/LG.png");
+    position: fixed;
+    width: 152px;
+    height: 59px;
+    margin-top: -14cm;
+    margin-left: 1.4cm;
+    z-index: -1;
+}
+#huawei{
+    background-image: url("../images/Huawei.png");
+    position: fixed;
+    width: 152px;
+    height: 59px;
+    margin-top: -12.5cm;
+    margin-left: 1.4cm;
+    z-index: -1;
+}
+#microsoft{
+    background-image: url("../images/Microsoft.png");
+    position: fixed;
+    width: 152px;
+    height: 59px;
+    margin-top: -11cm;
+    margin-left: 1.4cm;
+    z-index: -1;
+}
+#htc{
+    background-image: url("../images/HTC.png");
+    position: fixed;
+    width: 152px;
+    height: 59px;
+    margin-top: -9.5cm;
+    margin-left: 1.4cm;
+    z-index: -1;
+}
+#samsung{
+    background-image: url("../images/Samung.png");
+    position: fixed;
+    width: 152px;
+    height: 59px;
+    margin-top: -8cm;
+    margin-left: 1.4cm;
+    z-index: -1;
+}
+#lenevo{
+    background-image: url("../images/Lenevo.png");
+    position: fixed;
+    width: 152px;
+    height: 59px;
+    margin-top: -6.5cm;
+    margin-left: 1.4cm;
+    z-index: -1;
+}
+
+
+#btnCustomerHandling{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -500px;
+}
+#btnViewStock{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -480px;
+
+}
+#btnOrders{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -460px;
+}
+#btnPhones{
+    position: absolute;
+    margin-left: 10cm;
+    margin-top: -45px;
+}
+
+.carousel-inner{
+    width: 1366px;
+    height: 560px;
+    margin-top: 80px;
+    z-index: -1;
+}
+
+
+        /*Top Deal*/
+
+
+#tdealSamsung{
+    background-image: url("../images/topDealSamsung.jpg");
+    position: absolute;
+    /*border: lightgray 1px solid;*/
+    width: 180px;
+    height: 180px;
+    margin-left: 8cm;
+    margin-top: 1cm;
+    z-index: -1;
+}
+#tdealLenovo{
+    background-image: url("../images/topDealLenovo.jpg");
+    position: absolute;
+    /*border: lightgray 1px solid;*/
+    width: 180px;
+    height: 180px;
+    margin-left: 14.3cm;
+    margin-top: 1cm;
+    z-index: -1;
+}
+#tdealswipe{
+    background-image: url("../images/topdealswipeElite.jpg");
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 22cm;
+    margin-top: 1cm;
+    z-index: -1;
+}
+#tdealA6000{
+    background-image: url("../images/topDealA6000.jpg");
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 29cm;
+    margin-top: 1cm;
+    z-index: -1;
+}
+
+
+        /*Budget Mobiles*/
+
+
+#bugetNokiaC5{
+    background-image: url("../images/budgetNokiaC5.jpg");
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 8cm;
+    margin-top:  1cm;
+    z-index: -1;
+}
+#bugetLG{
+    background-image: url("../images/budgetLG.jpg");
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 15cm;
+    margin-top:  1cm;
+    z-index: -1;
+}
+#bugetNokiaE5{
+    background-image: url("../images/budgetNokiaE5.jpg");
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 22.3cm;
+    margin-top:  1cm;
+    z-index: -1;
+}
+#bugetLG510{
+    background-image: url("../images/budgetLG510.jpg");
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 29cm;
+    margin-top:  1cm;
+    z-index: -1;
+}
+#bestblackberry{
+    background-image: url("../images/bestBlackberry.jpg");
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 7.8cm;
+    margin-top:  1cm;
+    z-index: -1;
+}
+#bestSamsungSGH{
+    background-image: url("../images/bestSamsungSGH.jpg");
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    margin-left: 15cm;
+    margin-top:  1cm;
+    z-index: -1;
+}
+
+
+    /*Down Paragrahp*/
+
+#downParagrahp{
+    background-color: white;
+    position: absolute;
+    width: 28.2cm;
+    height: 2000px;
+    margin-top: 8.5cm;
+    margin-left: 7.4cm;
+    z-index: -1;
+}
+
+#newOrder{
+    background-color: #0d71bb;
+    /*opacity: 0.8;*/
+    margin-top: 1cm;
+    margin-left: 9cm;
+    width: 260px;
+    height: 130px;
+}
+#enrollCustomer{
+    background-color: yellow;
+    margin-top: -3.4cm;
+    margin-left: 18cm;
+    width: 260px;
+    height: 130px;
+}
+#viewStock{
+    background-color: green;
+    margin-top: -3.4cm;
+    margin-left: 27cm;
+    width: 260px;
+    height: 130px;
+}
+#orderIcon{
+    background-image: url("../images/Shopping Bag_90px.png");
+    margin-left: 4cm;
+    margin-top: -2cm;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+}
+#customerIcon{
+    background-image: url("../images/Add User Group Man Man_90px.png");
+    margin-left: 4cm;
+    margin-top: -2cm;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+}
+#viewIcon{
+    background-image: url("../images/Sell Stock_90px.png");
+    margin-left: 4cm;
+    margin-top: -2cm;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+}
+
+#btnViewOrder{
+    position: fixed;
+    margin-left: 29cm;
+    width: 8cm;
+    height: 1.5cm;
+    margin-top: -3.5cm;
+}

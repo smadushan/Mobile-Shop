@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mobile Stock</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        #ab{
+            font-size: 20px;
+            color: blue;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<form method="get" action="#" enctype="multipart/form-data">
+
+    <div id="header">
+        <div style="position: fixed;left: 0px">
+            <h1 style="margin-top: 2px;height: 55px;background-color: black;width: 280px"></h1>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: blue;margin-left: 40px">M</div>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: red;margin-left: 80px">o</div>
+            <div style="margin-top: -1.9cm;font-size: 50px;color: blue;margin-left: 110px">biles</div>
+        </div>
+
+        <div style="width: 100%;height: 55px;background-color: #19181a;margin-left: 7.4cm;position: fixed;margin-top: 2px"></div>
+
+        <!--<div style="margin-left: 9.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="MobileShopMain.html"> <img class="icon-png" src="images/Home_25px.png">Home</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 13.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="CustomerHandling.html"> <img class="icon-png" src="images/Edit%20User%20Male_25px.png">Manage Customer</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 19.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="ViewStock.html"> <img class="icon-png" src="images/Sell%20Stock_25px.png">View Stock</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 24.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="Orders.html"> <img class="icon-png" src="images/Purchase%20Order_25px.png">New Order</a>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 32.8cm;margin-top: 18px;position: fixed">-->
+            <!--<a class="nav-link " href="#"> <img class="icon-png" src="images/List_25px.png">Phones</a>-->
+        <!--</div>-->
+
+    </div>
+
+    <div style="margin-left: 34.5cm;margin-top: 2cm;position: fixed;font-size: 20px">
+        <a class="nav-link " href="MobileShopMain.html"> <img class="icon-png" src="images/Circled%20Left_35px.png"></a>
+    </div>
+
+
+<div class="container">
+    <fieldset>
+
+        <form method="get" action="#" enctype="multipart/form-data"><br><br><br>
+
+            <div style="margin-top: 1cm"><h1 style="color: blue">Phone Stock</h1></div>
+
+            <table style="margin-top: 2cm">
+                <tbody>
+                <tr>
+                    <td width="200">Brand Name</td>
+                    <td width="200"><select id="cmbBrand" class="form-control">
+                        <option>Samsung</option>
+                        <option>Huawei</option>
+                    </select></td>
+                </tr><td><br></td><tr>
+
+                <tr>
+                    <td width="200">Model Name</td>
+                    <td width="200"><select class="form-control">
+                        <option>Note 1</option>
+                        <option>S3</option>
+                    </select></td>
+
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+
+                    <td width="150">Qty on Hand</td>
+                    <td width="200"><input type="text" class="form-control"></td>
+                </tr>
+
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+</div>
+<br><br>
+
+<div class="container">
+    <fieldset>
+        <form>
+            <table width="1200" border="4" class="table">
+                <tbody>
+                <thead id="ab">
+                    <td>Stock ID</td>
+                    <td>Model ID</td>
+                    <td>Qty On Hand</td>
+                    <td>Stock Date</td>
+                </thead>
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+</div>
+
+    <div id="footer" style="margin-top: 30px;margin-left: 0px"></div>
+
+</form>
+</body>
+</html>
